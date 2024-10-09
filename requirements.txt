@@ -1,0 +1,4 @@
+requests
+streamlit_card
+streamlit_shadcn_ui
+streamlit
