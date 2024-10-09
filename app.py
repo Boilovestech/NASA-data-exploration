@@ -61,8 +61,8 @@ elif selected_tab == 'Mars rover pictures':
             streamlit.write("No Mars rover pictures available.")
     else:
         streamlit.write("Failed to fetch Mars rover pictures. Please try again later.")    
-elif selected_tab == 'Planet information':
-    streamlit.header("Planet information")
+elif selected_tab == 'Info Search':
+    streamlit.header("Info Search")
     
     query = streamlit.text_input("Enter keywords to get related studies")
     if query == "":
